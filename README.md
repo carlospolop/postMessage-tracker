@@ -4,7 +4,7 @@ Made by [Frans Rosén](https://twitter.com/fransrosen). Presented during the ["A
 
 <img src="https://github.com/fransr/postMessage-tracker/raw/docs-images/images/listener-uber.png" width="500" />
 
-This Chrome extension monitors postMessage-listeners by showing you an indicator about the amount of listeners in the current window.
+This Chrome extension monitors postMessage-listeners by showing you an indicator about the amount of listeners in the current window. It now targets Manifest V3 so it can be loaded in modern versions of Chrome.
 
 It supports tracking listeners in all subframes of the window. It also keeps track of short-lived listeners and listeners enabled upon interactions. You can also log the listener functions and locations to look them through them at a later stage by using the Log URL-option in the extension. This enables you to find hidden listeners that are only enabled for a short time inside an iframe.
 
